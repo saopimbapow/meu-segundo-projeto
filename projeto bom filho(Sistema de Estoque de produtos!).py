@@ -27,7 +27,6 @@ lista_h ={
     5: "- lista de todos produtos ",
     0:   "-sair",
 }
-produto = []
 
 if os.path.exists("dados.json"):
     with open("dados.json", "r") as f:
